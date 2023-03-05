@@ -1,7 +1,7 @@
 import { Box } from '@mui/material';
 import { FC, useEffect, useRef, useState } from 'react';
 import { PatientDetails } from '../components/Patient/PatientDetails';
-import { getPatientDetails, PatientDetailsData } from '../services/user/patientServices';
+import { getPatientDetails, PatientDetailsData } from '../services/patient/patientServices';
 import { sessionTokenService } from '../services/user/sessionStorageSevices';
 import { FetchState } from '../types';
 

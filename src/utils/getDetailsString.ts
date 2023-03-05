@@ -1,5 +1,5 @@
-import { ClinicianDetailsData } from "../services/user/clinicianServices";
-import { PatientDetailsData } from "../services/user/patientServices";
+import { ClinicianDetailsData } from "../services/clinician/clinicianServices";
+import { PatientDetailsData } from "../services/patient/patientServices";
 
 export const getDetailsString = (details: ClinicianDetailsData | PatientDetailsData) => {
   const nameParts = [];

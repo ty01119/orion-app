@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from 'react';
 import { ClinicianDetails } from '../components/Clinician/ClinicianDetails'
-import { ClinicianDetailsData, getClinicianDetails } from '../services/user/clinicianServices';
+import { ClinicianDetailsData, getClinicianDetails } from '../services/clinician/clinicianServices';
 import { sessionTokenService } from '../services/user/sessionStorageSevices';
 import { FetchState } from '../types';
 

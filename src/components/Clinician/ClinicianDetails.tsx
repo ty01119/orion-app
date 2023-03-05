@@ -1,6 +1,6 @@
 import { Box } from '@mui/material'
 import { FC } from 'react';
-import { ClinicianDetailsData } from '../../services/user/clinicianServices'
+import { ClinicianDetailsData } from '../../services/clinician/clinicianServices'
 import { FetchState } from '../../types'
 import { getDetailsString } from '../../utils/getDetailsString';
 

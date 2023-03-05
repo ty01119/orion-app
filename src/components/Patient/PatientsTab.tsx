@@ -4,7 +4,7 @@ import Tab from '@mui/material/Tab';
 import Box from '@mui/material/Box';
 import { FC, useState } from 'react';
 import { FetchState } from '../../types';
-import { PatientData } from '../../services/user/patientServices';
+import { PatientData } from '../../services/patient/patientServices';
 import { PatientDetailsContainer } from '../../containers/PatientDetailsContainer';
 
 interface PatientsTabProps {

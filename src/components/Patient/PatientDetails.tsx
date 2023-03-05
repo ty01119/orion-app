@@ -1,5 +1,5 @@
 import { Box } from '@mui/material';
-import { PatientDetailsData } from '../../services/user/patientServices'
+import { PatientDetailsData } from '../../services/patient/patientServices'
 import { getDetailsString } from '../../utils/getDetailsString';
 
 export const PatientDetails = (props: PatientDetailsData) => {

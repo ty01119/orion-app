@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { PatientsTab } from '../components/Patient/PatientsTab';
-import { getPatients, PatientData } from '../services/user/patientServices';
+import { getPatients, PatientData } from '../services/patient/patientServices';
 import { sessionTokenService } from '../services/user/sessionStorageSevices';
 import { FetchState } from '../types';
 
