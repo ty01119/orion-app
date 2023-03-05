@@ -11,6 +11,7 @@ export const DashboardContainer = () => {
 
   useEffect(() => {
     const sessionToken = sessionTokenService.getFromSessionStorage()
+    console.log('sessionToken', sessionToken);
     if (!sessionToken) {
       navigate('/');
     }
