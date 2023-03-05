@@ -23,5 +23,4 @@ export const getDetailsString = (details: ClinicianDetailsData | PatientDetailsD
     nameParts.push(details.suffix);
   }
   return nameParts.join(' ');
-  return;
 }
